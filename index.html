@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"/>
+    <style>
+        @import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+        *{
+            text-decoration: none;
+        }
+        body{
+            
+            background: url(img/bg.jpg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+            font-family: 'Poppins',sans-serif;
+            
+        }
+        #contenedor{
+            width:900px;
+            margin:0 auto 0 auto;
+            background-color:#112077;
+        }
+        .banner{
+            height:70px;
+            padding:5px;
+            background-color:#dd1f1f;
+            text-align: center;
+           
+
+        }
+
+        #cabecera{
+            width:890px;
+            height:70px;
+            margin:0;
+            padding:5px;
+            background:url(img/img1.png);
+            
+        }
+        #titulo1{
+            font-size: 40px;
+        }
+        nav{
+            width:890px;
+            margin:0;
+            padding:5px;
+            background-color:#E0E0E0;
+        }
+        .ulline{
+            margin:0px;
+            padding:0px;
+        }
+        .listline{
+            margin:0;
+            padding-left:5px;
+            padding-right:20px;
+            display:inline;
+        }
+        #sectiona{
+            width:701px;
+            height:630px;
+            margin:0;
+            padding:5px;
+            background-color:#C1C1C1;
+            float:left;
+        }
+        section{
+            width:228px;
+            height:276px;
+            margin:5px 5px 0 0;
+            background-color:#A3A3A3;
+            float:left;
+        }
+        article{
+            width:218px;
+            height:226px;
+            margin:0px;
+            padding:5px;
+            background-color:#E0E0E0;
+        }
+        footer{
+            padding:5px; 
+            height: 100px;   
+        }
+        aside{
+            width:170px;
+            height:630px;
+            margin:0;
+            padding:5px;
+            background-color:#C1C1C1;
+            float:right;
+        }
+        address{
+            width:890px;
+            height:70px;
+            margin-top:50px;
+            padding:5px;
+            background-color:#E0E0E0;
+            clear:both;
+        }
+        #footerfin{
+            width:890px;
+            height:70px;
+            margin:0;
+            background-color:#C1C1C1;
+            clear:both;
+            text-align: center;
+        }
+        a{
+            color:rgb(0, 0, 0);
+            text-align: justify;
+            transition: .3s linear;
+        }
+        a:hover{
+            color:rgb(145, 13, 13);
+        }
+        .boton{
+            padding: 5px;
+            margin: 5px;
+            transition: .3s linear;
+            color: #433a3a;
+        }
+        .boton:hover{
+            color:rgb(145, 13, 13);
+        }
+        img{
+            width:218px;
+            height:226px;
+        }
+        
+    </style>
+</head>
+<body>
+    
+
+<div id="contenedor">
+    <div class="banner" id="titulo1">DIARIO EL CLARIN</div>
+ 
+    <header id="cabecera"></header>
+    <nav>
+       <ul class="ulline">
+           <li class="listline">
+               <a href="">Lo de hoy</a>
+            </li>
+            <li class="listline">
+                <a href="">Temas</a>
+            </li>
+            <li class="listline">
+                <a href="">Comunidad</a>
+            </li>
+            <li class="listline">
+                <a href="">Donaciones</a>
+            </li>
+        </ul>
+    </nav>
+    <section id="sectiona">
+       <h1>Titular de hoy</h1>
+       <section>
+          <article class="noticia1">
+            <a href="">
+                <img src="img/1.jpg" alt="">
+              </a>
+          </article>
+          <footer>
+              <p>
+                Comida envenenada 
+              </p>
+             
+          </footer>
+       </section>
+       <section>
+          <article class="noticia2">
+            <a href="">
+                <img src="img/2.jpg" alt="">
+              </a>
+          </article>
+          <footer>
+            <p>
+                Roban perfiles
+              </p>
+              
+          </footer>
+       </section>
+       <section>
+          <article class="noticia3">
+            <a href="">
+                <img src="img/3.jpg" alt="">
+              </a>
+          </article>
+          <footer>
+            <p>
+                Inseguridad en redes
+              </p>
+              
+          </footer>
+       </section>
+       <section>
+          <article class="noticia4">
+            <a href="">
+                <img src="img/4.jpg" alt="">
+              </a>
+          </article>
+          <footer>
+            <p>
+                robots para el futuro
+              </p>
+              
+          </footer>
+       </section>
+       <section>
+          <article class="noticia5">
+            <a href="">
+                <img src="img/5.jpg" alt="">
+              </a>
+          </article>
+          <footer>
+            <p>
+                lugares hermosos
+              </p>
+              
+          </footer>
+       </section>
+       <section >
+          <article class="noticia6">
+              <a href="">
+                <img src="img/6.jpg" alt="">
+              </a>
+            
+          </article>
+          <footer>
+            <p>
+                calentamiento global
+              </p>
+              
+          </footer>
+       </section>
+    </section>
+ 
+    <aside>
+       <div class="banner">Redes sociales</div>
+       <ul>
+           <li>
+               <a href="#" class="fab fa-facebook boton">Facebook</a>
+            </li>
+            <li>
+                <a href="#" class="fab fa-twitter boton" >Twitter</a>
+            </li>
+            <li>
+                <a href="#" class="fab fa-github boton">Github</a>
+            </li>
+            <li>
+                <a href="#" class="fab fa-youtube boton">Youtube</a>
+            </li>
+        </ul>
+    </aside>
+ 
+    <address>
+       <p>
+        Dirección: Barrio, El Río s/n, 52773 Magdalena Chichicaspa, Méx.
+        <br>
+        Teléfono: 55 8888 1130
+       </p>
+    </address>
+    
+    <footer id="footerfin">
+
+       <script type="text/javascript">
+        var d=new Date();
+            document.write('Fecha :'+d.getDate(),'<br> Mes(1 al 12):'+d.getMonth(),
+                            '<br>Anio :'+d.getFullYear());
+        </script>
+    </footer>
+ </div>
+ 
+</body>
+</html>
